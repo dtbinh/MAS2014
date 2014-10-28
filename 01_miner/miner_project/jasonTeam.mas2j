@@ -1,0 +1,11 @@
+MAS miners {
+    infrastructure: Centralised
+    
+    environment: mining.MiningPlanet(1,50,yes)
+        // parameters: 1. scenario id (from 1 to 3)
+        //             2. sleep time (in ms) after each action
+        //             3. whether display the gui
+        
+    agents:
+        miner #4;     
+}
